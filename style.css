@@ -1,0 +1,29 @@
+/* header, h1, nav, ul, li, a 
+*/
+
+/* Fargepalett
+Orange: #FF6D05;
+Rosa: #D99A9A;
+Beige: #242424;
+*/
+
+:root {
+  --orange: #ff6d05;
+  --rosa: #d99a9a;
+  --beige: #242424;
+}
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HJEM */
+
+/* BOOKING */
+
+/* GALLERI */
+
+/* FEEDBACK */
