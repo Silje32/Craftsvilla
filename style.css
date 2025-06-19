@@ -63,10 +63,25 @@ footer {
   height: 10svh;
 }
 
-/* HJEM */
+/* HJEM 
+section; #index-1, 
+h2;
+section; #index-2
+article; .mosaikk, .akvarell, .lerret
+h3;
+img; .mosaikk-kunst, .akvarell-kunst, .lerrets-kunst
+p 
+*/
+#index-1,
+#index-2 {
+  max-width: 80%;
+}
 
-/* BOOKING */
+/* BOOKING 
+*/
 
-/* GALLERI */
+/* GALLERI 
+*/
 
-/* FEEDBACK */
+/* FEEDBACK 
+*/
