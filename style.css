@@ -35,6 +35,11 @@ h1 {
   font-weight: bold;
   font-size: 40px;
 }
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: var(--rosa);
+}
 nav {
   width: 60svw;
 }
@@ -65,7 +70,7 @@ footer {
 
 /* HJEM 
 section; #index-1, 
-h2;
+h2
 section; #index-2
 article; .mosaikk, .akvarell, .lerret
 h3;
@@ -77,8 +82,23 @@ p
   max-width: 80%;
 }
 
-/* BOOKING 
+/* BOOKING
+section; #booking-1 
+h2
+form; label, input, textarea
+section; #booking-2
+h2
+iframe
+button 
 */
+
+button {
+  background-color: var(--orange);
+  color: white;
+  border: none;
+  border-radius: 80%;
+  padding: 20px;
+}
 
 /* GALLERI 
 */
