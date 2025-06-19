@@ -1,4 +1,6 @@
-/* header, h1, nav, ul, li, a 
+/* header, h1, nav, ul, li, a
+main, section 
+footer
 */
 
 /* Fargepalett
@@ -10,7 +12,7 @@ Beige: #242424;
 :root {
   --orange: #ff6d05;
   --rosa: #d99a9a;
-  --beige: #242424;
+  --beige: #f6f6f1;
 }
 
 /* CSS RESET */
@@ -18,6 +20,47 @@ Beige: #242424;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+header {
+  max-width: 100svw;
+  max-height: 100svh;
+  padding: 20px;
+  display: flex;
+  background-image: url("./images/lerretsmaling2.jpg");
+  background-size: cover;
+}
+h1 {
+  font-family: "Ribeye", serif;
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 40px;
+}
+nav {
+  width: 60svw;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Libre Baskerville", serif;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+main {
+  width: 100svw;
+  height: 100svh;
+  background-color: var(--beige);
+}
+section {
+  max-width: 80%;
+}
+footer {
+  max-width: 10svw;
+  height: 10svh;
 }
 
 /* HJEM */
