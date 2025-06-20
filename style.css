@@ -207,5 +207,33 @@ img; .kunst-1, .kunst-2, .kunst-3, .kunst-4, .kunst-5, .kunst-6, .kunst-7, .kuns
 
 /* FEEDBACK 
 section; #feedback
+article; .feedback-1
+h3
 h4, p
 */
+#feedback {
+display: flex;
+}
+.feedback-1, 
+.feedback-2, 
+.feedback-3, 
+.feedback-4, 
+.feedback-5, 
+.feedback-6, 
+.feedback-7, 
+.feedback-8, 
+.feedback-9, 
+.feedback-10, 
+.feedback-11, 
+.feedback-12, 
+.feedback-13, 
+.feedback-14, 
+.feedback-15, 
+.feedback-16, 
+.feedback-17, 
+.feedback-18 {
+width: 100%;
+margin: 30px 10px;
+border: 1px solid var(--orange);
+padding: 15px;
+}
