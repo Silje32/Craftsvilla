@@ -9,8 +9,6 @@ Rosa: #D99A9A;
 Beige: #242424;
 */
 
-/* Ribeye font */
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Ribeye&display=swap');
 
 :root {
   --orange: #ff6d05;
@@ -58,6 +56,10 @@ h4 {
   color: var(--rosa);
   margin-bottom: 20px;
   text-align: center;
+}
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px; 
 }
 nav {
   width: 60svw;
