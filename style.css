@@ -9,6 +9,9 @@ Rosa: #D99A9A;
 Beige: #242424;
 */
 
+/* Ribeye font */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Ribeye&display=swap');
+
 :root {
   --orange: #ff6d05;
   --rosa: #d99a9a;
@@ -32,7 +35,8 @@ header {
 h1 {
   font-family: "Ribeye", serif;
   color: var(--orange);
-  font-weight: bold;
+  font-weight: 400;
+  font-style: normal;
   font-size: 40px;
 }
 h2 {
