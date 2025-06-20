@@ -102,8 +102,26 @@ button {
 
 /* GALLERI 
 h2
+article; .galleri-1
 img; .kunst-1, .kunst-2, .kunst-3, .kunst-4, .kunst-5, .kunst-6, .kunst-7, .kunst-8
 */
+.galleri-1 {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 100%;
+}
+.kunst-1,
+.kunst-2,
+.kunst-3,
+.kunst-4,
+.kunst-5,
+.kunst-6,
+.kunst-7,
+.kunst-8 {
+  width: 50%;
+  height: auto;
+  margin: 10px;
+}
 
 /* FEEDBACK 
 h4, p
