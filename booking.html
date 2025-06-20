@@ -19,67 +19,69 @@
       </nav>
     </header>
     <main>
-      <section>
-        <h2>VELG WORKSHOPS</h2>
-        <form>
-          <label
-            >Mosaikk Kunst:
-            <input type="text" />
-          </label>
-          <label
-            >Akvarellmaling:
-            <input type="text" />
-          </label>
-          <label
-            >Lerretsmaling:
-            <input type="text" />
-          </label>
-          <label
-            >Pris:
-            <input type="text" />
-          </label>
-          <label
-            >Varighet:
-            <input type="text" />
-          </label>
-          <label
-            >Målgruppe:
-            <input type="text" />
-          </label>
-        </form>
+      <section id="booking-1">
+        <article class="booking-1">
+          <h2>VELG WORKSHOPS</h2>
+          <p class="valg">(Bare ett valg mulig)</p>
+          <form>
+            <fieldset>
+              <label
+                >Mosaikk Kunst:
+                <input type="checkbox" />
+                <p>Pris kurs: 400 kr</p>
+              </label>
+            </fieldset>
+            <fieldset>
+              <label
+                >Akvarellmaling:
+                <input type="checkbox" />
+                <p>Pris kurs: 200 kr</p>
+              </label>
+            </fieldset>
+            <fieldset>
+              <label
+                >Lerretsmaling:
+                <input type="checkbox" />
+                <p>Pris kurs: 300 kr</p>
+              </label>
+            </fieldset>
+          </form>
 
-        <h2>DELTAKER</h2>
-        <form>
-          <label
-            >Navn:
-            <input type="text" />
-          </label>
-          <label
-            >E-post:
-            <input type="text" />
-          </label>
-          <label
-            >Pris:
-            <input type="text" />
-          </label>
-          <div>
-            <textarea name="message">
+          <h2>DELTAKER</h2>
+          <form>
+            <label
+              >Navn:
+              <input type="text" />
+            </label>
+            <label
+              >E-post:
+              <input type="text" />
+            </label>
+            <label
+              >Pris:
+              <input type="text" />
+            </label>
+            <div>
+              <textarea name="message">
                 Noe du lurer på eller vil fortelle oss om</textarea
-            >
-          </div>
-        </form>
+              >
+            </div>
+          </form>
+        </article>
       </section>
-      <section>
-        <h2>VELG DAG</h2>
-        <iframe
-          src="https://calendar.google.com/calendar/embed?src=d559a88585a05d863e624a18c8bfc90566ce9a0c9aa8402f990f368b0f11103b%40group.calendar.google.com&ctz=Europe%2FOslo"
-          style="border: 0"
-          width="800"
-          height="600"
-          frameborder="0"
-          scrolling="no"
-        ></iframe>
-        <button>Meld meg på kurs</button>
+      <section id="booking-2">
+        <article class="booking-2">
+          <h2>VELG DAG</h2>
+          <iframe
+            src="https://calendar.google.com/calendar/embed?src=d559a88585a05d863e624a18c8bfc90566ce9a0c9aa8402f990f368b0f11103b%40group.calendar.google.com&ctz=Europe%2FOslo"
+            style="border: 0"
+            width="600"
+            height="600"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+          <button>Meld meg på kurs</button>
+        </article>
       </section>
     </main>
     <footer>Back to top</footer>

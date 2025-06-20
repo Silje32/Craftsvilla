@@ -37,8 +37,16 @@ h1 {
 }
 h2 {
   font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: var(--rosa);
+  margin: 25px 20px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: var(--rosa);
+  margin-bottom: 20px;
+  text-align: center;
 }
 nav {
   width: 60svw;
@@ -77,27 +85,94 @@ h3;
 img; .mosaikk-kunst, .akvarell-kunst, .lerrets-kunst
 p 
 */
-#index-1,
-#index-2 {
+#index-1 {
   max-width: 80%;
+  display: flex;
+  margin: 20px;
+}
+#index-2 {
+  display: flex;
+  margin: 20px;
+}
+.mosaikk {
+  margin: 20px;
+}
+.akvarell {
+  margin: 20px;
+}
+.lerret {
+  margin: 20px;
+}
+.mosaikk-kunst,
+.akvarell-kunst,
+.lerrets-kunst {
+  max-width: 100%;
 }
 
 /* BOOKING
 section; #booking-1 
+article; .booking-1
 h2
-form; label, input, textarea
+h3
+p; .valg
+form; fieldset, label, input, textarea
 section; #booking-2
+article; .booking-2
 h2
 iframe
 button 
 */
 
+#booking-1 {
+  display: flex;
+}
+.booking-1 {
+  flex-direction: column;
+  order: 1;
+}
+.valg {
+    margin: 20px;
+}
+#booking-2 {
+  display: flex;
+}
+.booking-2 {
+  flex-direction: column;
+  margin: 20px;
+  order: 2;
+}
+fieldset {
+    margin: 30px;
+    width: 200px;
+}
+input {
+  display: block;
+  border: 1px solid var(--orange);
+  padding: 10px 30px;
+  margin: 10px;
+  min-width: 400px;
+  cursor: pointer;
+
+  :hover 
+    color: var(--orange);
+  
+}
+label {
+font-family: "Montserrat", sans-serif;
+}
+textarea {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+}
 button {
   background-color: var(--orange);
   color: white;
   border: none;
-  border-radius: 80%;
-  padding: 20px;
+  border-radius: 10%;
+  padding: 10px 20px;
+  max-width: 200px;
+  margin: 10px;
 }
 
 /* GALLERI 
